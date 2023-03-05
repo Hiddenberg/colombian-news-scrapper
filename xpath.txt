@@ -1,0 +1,4 @@
+Links = //div/h2/a/@href
+Noticia-Titulo = //div[contains(@class, "OpeningPostNormal")]//h2/span/text()
+Noticia-Resumen = //div[@class="lead"]/p/text()
+Noticia-Cuerpo = //div[@class="html-content"]/p/text()
